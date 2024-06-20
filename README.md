@@ -1,5 +1,6 @@
 # OATH Frames
-
+## About
+We introduce a novel framework to understand, synthesize and characterize large-scale public attitudes towards societal issues through a collaboration between social work experts and LLMs. Specifically, we introduce a framing typology: OATH-Frames, (Online Attitudes Towards Homelessness): nine hierarchical frames capturing public attitudes towards homelessness as expressed on Twitter. We provide three kinds of annotations for posts from Twitter: expert-only, LLM-assisted expert and predicted annotations from a multilabel classification model.
 ## Getting Started
 * Install the recommended dependencies via [Anaconda](https://www.anaconda.com/download/)
   ```bash
