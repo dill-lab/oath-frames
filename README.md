@@ -4,7 +4,7 @@ We introduce a novel framework to understand, synthesize and characterize large-
 ## Getting Started
 * Install the recommended dependencies via [Anaconda](https://www.anaconda.com/download/)
   ```bash
-    conda create -n oath python=3.8
+    conda create -n oath python=3.9.12
     conda activate oath
     conda install -c conda-forge pip # make sure pip is installed
     python -m pip install -r requirements.txt # make sure the packages are installed in the specific conda environment
@@ -16,12 +16,17 @@ Please refer to `TODO` for our released data
 * Expert + GPT-4
 * Analysis set (Model Predicted) 
 * Train/Test/Eval Splits
+* [NER](https://huggingface.co/cjber/reddit-ner-place_names) predictions 
+* Accompanying file for analysis in Section 4.3 in the paper
   
 *Note: Posts labeled with `0`, `[]`, or do not have any labels are those that have been filtered out as irrelevant to our task. Please exclude these during analysis* 
 ## Training and Evaluation
 Please refer to `src/` for finetuning `Flan-T5-Large` on our data
+(`TODO`: add link to script)
 ## Frame Analysis
-Please refer to `analysis/` for all our code regarding analysis of our predicted frames
+* Please refer to `analysis/` for all our code regarding analysis of our predicted frames
+* `analysis/analysis_data/` contains accompanying preprocessed files frame analysis, note that extended NER predictions and accompanying file for analysis 4.3 in the paper is hosted on huggingface
+
 ## Citation
 ```
 ```
