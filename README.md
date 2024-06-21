@@ -12,12 +12,12 @@ We introduce a novel framework to understand, synthesize and characterize large-
   ```
 ## Data
 Please refer to [Hugging Face](https://huggingface.co/collections/dill-lab/oath-frames-66750459b31a31445bd1d67a) for our released data
-* oath-frames-expert-annotations
-* Expert + GPT-4
-* Analysis set (Model Predicted) 
-* Train/Test/Eval Splits
-* [NER](https://huggingface.co/cjber/reddit-ner-place_names) predictions 
-* Accompanying file for analysis in Section 4.3 in the paper
+* Expert Annotations: oath-frames-expert-annotations
+* Expert + GPT-4: oath-frames-expert-plus-gpt-annotations
+* Analysis set (Model Predicted): oath-frames-model-predicted-annotations
+* Train/Test/Eval Splits: oath-frames-flan-datasets
+* [NER](https://huggingface.co/cjber/reddit-ner-place_names) predictions: oath-frames-analysis-ner 
+* PEH/Vulnerable population analysis (Section 4.3) in the paper: oath-frames-analysis-vulnerable-populations
   
 *Note: Posts labeled with `0`, `[]`, or do not have any labels are those that have been filtered out as irrelevant to our task. Please exclude these during analysis* 
 ## Training and Evaluation
