@@ -20,6 +20,7 @@ Please refer to `TODO` for our released data
 *Note: Posts labeled with `0`, `[]`, or do not have any labels are those that have been filtered out as irrelevant to our task. Please exclude these during analysis* 
 ## Training and Evaluation
 Please refer to `src/` for finetuning `Flan-T5-Large` on our data
+(`TODO`: add link to script)
 ## Frame Analysis
 Please refer to `analysis/` for all our code regarding analysis of our predicted frames
 ## Citation
