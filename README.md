@@ -11,8 +11,8 @@ We introduce a novel framework to understand, synthesize and characterize large-
     python -m pip install -e .
   ```
 ## Data
-Please refer to `TODO` for our released data
-* Human Annotations
+Please refer to [Hugging Face](https://huggingface.co/collections/dill-lab/oath-frames-66750459b31a31445bd1d67a) for our released data
+* oath-frames-expert-annotations
 * Expert + GPT-4
 * Analysis set (Model Predicted) 
 * Train/Test/Eval Splits
