@@ -4,7 +4,7 @@ We introduce a novel framework to understand, synthesize and characterize large-
 ## Getting Started
 * Install the recommended dependencies via [Anaconda](https://www.anaconda.com/download/)
   ```bash
-    conda create -n oath python=3.8
+    conda create -n oath python=3.9.12
     conda activate oath
     conda install -c conda-forge pip # make sure pip is installed
     python -m pip install -r requirements.txt # make sure the packages are installed in the specific conda environment
