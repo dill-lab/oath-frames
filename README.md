@@ -25,7 +25,7 @@ Please refer to `src/` for finetuning `Flan-T5-Large` on our data
 (`TODO`: add link to script)
 ## Frame Analysis
 * Please refer to `analysis/` for all our code regarding analysis of our predicted frames
-* `analysis/analysis_data/` contains accompanying preprocessed files frame analysis 
+* `analysis/analysis_data/` contains accompanying preprocessed files frame analysis, note that extended NER predictions and accompanying file for analysis 4.3 in the paper is hosted on huggingface
 
 ## Citation
 ```
