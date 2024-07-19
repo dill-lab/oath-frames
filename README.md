@@ -1,4 +1,11 @@
 # OATH Frames
+
+This repository contains the code and data for our paper: 
+
+[OATH-Frames: Characterizing Online Attitudes Towards Homelessness with LLM Assistants](https://arxiv.org/abs/2406.14883)
+
+<h6> Jaspreet Ranjit, Brihi Joshi, Rebecca Dorn, Laura Petry, Olga Koumoundouros, Jayne Bottarini, Peichen Liu, Eric Rice, Swabha Swayamdipta</h6>
+
 ## About
 We introduce a novel framework to understand, synthesize and characterize large-scale public attitudes towards societal issues through a collaboration between social work experts and LLMs. Specifically, we introduce a framing typology: OATH-Frames, (Online Attitudes Towards Homelessness): nine hierarchical frames capturing public attitudes towards homelessness as expressed on Twitter. We provide three kinds of annotations for posts from Twitter: expert-only, LLM-assisted expert and predicted annotations from a multilabel classification model.
 ## Getting Started
@@ -29,4 +36,10 @@ Please refer to `src/trainer_deepspeed.sh` for finetuning `Flan-T5-Large` on our
 
 ## Citation
 ```
+@article{ranjit2024oath,
+  title={OATH-Frames: Characterizing Online Attitudes Towards Homelessness with LLM Assistants},
+  author={Ranjit, Jaspreet and Joshi, Brihi and Dorn, Rebecca and Petry, Laura and Koumoundouros, Olga and Bottarini, Jayne and Liu, Peichen and Rice, Eric and Swayamdipta, Swabha},
+  journal={arXiv preprint arXiv:2406.14883},
+  year={2024}
+}
 ```
